@@ -14,6 +14,7 @@
 #include "kernel/type.h"
 #include "kernel/proc.h"
 #include "kernel/ipc.h"
+#include "ps2.c"
 
 #define LINES 22
 
@@ -116,7 +117,7 @@ monparams_dmp(void)
 }
 
 void exibe_processos(void){
-	mostraprocessos();
+	printMensage();
 }
 
 /*===========================================================================*
