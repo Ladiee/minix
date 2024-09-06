@@ -117,7 +117,7 @@ monparams_dmp(void)
 }
 
 void exibe_processos(void){
-	printMensage();
+	printMenssage();
 }
 
 /*===========================================================================*
